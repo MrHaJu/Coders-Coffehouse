@@ -39,11 +39,13 @@ header {
 
 .vertical-center {
     position: relative;
-    top: 50%;
-    
+    top: 30%;
+    text-align: ;
 }
 
-
+.spacer {
+    clear: both;
+}
 
 
 
@@ -254,7 +256,15 @@ input[type=submit] {
 	border: none;
 	border-radius: 5px;
 }
-
+input[type=reset] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #5e361b;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
 input[type=text],
 input[type=email],
 input[list=coffees] {
@@ -270,7 +280,7 @@ input[list=coffees] {
 }
 
 select {
-    height: 30px;
+    height: 36px;
     width: 100px;
     padding-left: 10px;
 }
@@ -319,7 +329,7 @@ label {
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 55px;
+    margin-bottom: 107px;
 }
 
 #map {
