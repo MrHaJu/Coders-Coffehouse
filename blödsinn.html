@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Coders Coffeehouse</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Coders Coffeehouse, Dublin based coffeehouse offering free unlimited wifi and quality caffeine to fuel your code">
+	<meta name="keywords" content="coffeehouse, coffee, developers cafe, free wifi, dublin">
+	<meta name="author" content="Coders Coffeehouse">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div id="home" class="text-center">
+    <h1>Welcome to Coders Coffeehouse!</h1>
+    <p>Turning caffeine into code since 1999.</p>
+  </div>
+
+  <hr>
+
+  <a href="#home" aria-label="Go to the top of the page">Home</a>
+  <a href="#drinks" aria-label="Go to drinks menu section">Drinks Menu</a>
+  <a href="#contact" aria-label="Go to contact information section">Contact</a>
+  <a href="form.html" aria-label="Fill in our survey for your chance to win free coffee">Win Free Coffee</a>
+
+  <div>
+    <h2>Reasons to love us</h2>
+
+    <!-- Add your ordered list here -->
+    <ol type="A">
+      <li>Jog 2KM</li>
+      <li>Shower</li>
+      <li>Eat a healthy breakfast
+      </li>
+      <li>Write some code!</li>
+    </ol>
+    <!-- Unordered list with default bullets-->
+    <h1>Warm Pitta salad</h1>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Green salad</li>
+      <li>Humous</li>
+      <li>Halloumi</li>
+      <li>Pitta</li>
+    </ul>
+
+    <!-- Unordered list with circle bullets-->
+    <ul style="list-style-type: circle">
+      <li>Green salad</li>
+      <li>Humous</li>
+      <li>Halloumi</li>
+      <li>Pitta</li>
+    </ul>
+
+    <!-- Unordered list with square bullets-->
+    <ul style="list-style-type: square">
+      <li>Green salad</li>
+      <li>Humous</li>
+      <li>Halloumi</li>
+      <li>Pitta</li>
+    </ul>
+
+    <!-- Unordered list with custom image used for bullets -->
+    <ul
+      style="list-style-image: url('https://codeinstitute.s3-eu-west-1.amazonaws.com/fullstack/01-html-fundamentals/food.png');">
+      <li>Green salad</li>
+      <li>Humous</li>
+      <li>Halloumi</li>
+      <li>Pitta</li>
+    </ul>
+
+    <h2>Preparation</h2>
+    <ol>
+      <li>Lightly toast the pitta, leave to cool, then slice down one edge.</li>
+      <li>Grill the halloumi, turning until browned on both sides.</li>
+      <li>Wash and chop the salad.</li>
+      <li>Fill pitta with salad, humous, and grilled halloumi.</li>
+    </ol>
+
+
+  </div>
+  <div>
+    <ol>
+      <li>HTML Fundamentals
+        <ul>
+          <li>Headings</li>
+          <li>Paragraphs </li>
+          <li>Divs and Spans</li>
+        </ul>
+      </li>
+      <li>CSS Fundamentals
+        <ul>
+          <li>Colors</li>
+          <li>Positioning </li>
+          <li>Sizing</li>
+        </ul>
+      </li>
+      <li>JavaScript Fundamentals
+        <ul>
+          <li>Strings</li>
+          <li>Arrays</li>
+          <li>Functions</li>
+        </ul>
+      </li>
+
+    </ol>
+  </div>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Job</th>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>32</td>
+      <td>Junior Dev</td>
+    </tr>
+    <tr>
+      <td>Alice</td>
+      <td>43</td>
+      <td>Senior Dev</td>
+    </tr>
+  </table>
+  <img src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/coders-coffeehouse-project-1.jpg"
+    alt="Cafe table with laptop and coffee">
+
+  <div id="drinks" class="text-center">
+    <h2>Drinks Menu</h2>
+
+    <div id="coffee-box" class="text-white">
+      <h3>Coffee</h3>
+    </div>
+
+    <div id="tea-box" class="text-white">
+      <h3>Tea</h3>
+    </div>
+
+    <div id="cold-drinks-box" class="text-white">
+      <h3>Cold drinks</h3>
+    </div>
+  </div>
+
+  <div id="contact">
+    <h2>Contact</h2>
+
+    <h3>Open times</h3>
+
+    <h3>Get in touch</h3>
+
+    <div>
+      <span style="font-weight: bold;">Phone: </span>
+      <span>012 345 678 910</span>
+    </div>
+    <div>
+      <span style="font-weight: bold;">Email: </span>
+      <span>email@coderscoffeehouse.com</span>
+    </div>
+
+
+    <h3>Address</h3>
+    <p>Coders Coffeehouse,<br>42 Coffeebean street,<br>Dublin</p>
+  </div>
+
+  <a href="https://www.facebook.com" target="_blank" rel="noopener">Find us on Facebook</a>
+  <a href="https://www.instagram.com" target="_blank" rel="noopener">Find us on Instagram</a>
+  <a href="https://www.twitter.com" target="_blank" rel="noopener">Find us on Twitter</a>
+
+  <form>
+    <label for="name">Name</label>
+    <input id="name" type="text">
+  </form>
+
+  <form action="https://formdump.codeinstitute.net" method="POST">
+    <div>
+      <label for="name-field">Name</label>
+      <input id="name-field" type="text">
+    </div>
+    <div>
+      <label for="email-field">Email</label>
+      <input id="email-field" type="email">
+    </div>
+
+    <input type="submit">
+
+  </form>
+
+  <form action="https://formdump.codeinstitute.net/" method="post">
+    <!-- 
+                HTML5  will create a colour picker component
+                which enables the user to select and enter
+                colour code
+               -->
+    <label for="color">Your favorite color </label>
+    <input type="color" id="color" name="color" placeholder="What is your favorite color" />
+    <br />
+
+    <!--
+                The file type will allow you to upload and submit a file.
+              Include the "multiple" attribute to select more than one file.
+            -->
+    <input type="file" name="file" multiple />
+    <br />
+
+    <!-- 
+              This number input field allows only numbers greater than or equal to 18
+              and less than or equal to 99. It will also prevent 
+              submitting any odd number in the same range.
+              Try to submit these numbers and see what happens:
+              1, 19, 39, 100
+            -->
+    <label for="number">Your age</label>
+    <input type="number" id="number" name="number" placeholder="Age" step="2" min="18" max="99" />
+    <br />
+
+    <!-- 
+              This input field is displayed as a slider.
+              It enables to set minimum and maximum point.
+            -->
+    <label for="volume">Volume</label>
+    <input type="range" name="volume" min="0" max="10" />
+    <br />
+    <!-- 
+              This input field is displayed as a text field.
+            When the user starts typing an X appears to 
+            delete the search keywords.
+            -->
+    <label for="search">Search</label>
+    <input type="search" name="search" />
+    <br />
+
+
+    <input type="submit" value="Send it!" />
+    <!-- A reset button will clear all entered data -->
+    <input type="reset" value="Cancel" />
+
+  </form>
+  <form>
+    <label for="first">First:</label>
+    <br>
+    <textarea name="first" id="first"
+      placeholder="You can see this placeholder, because there isn't anything between the textareas opening and closing tags"
+      rows="10" cols="40"></textarea>
+    <br>
+    <label for="second">Second:</label>
+    <br>
+    <textarea name="second" id="second"
+      placeholder="You can't see this placeholder a first, because a value has been added between the opening and closing tags"
+      rows="10"
+      cols="40">This value is between the opening and closing textarea tags. Try deleting it in the preview to see the placeholder show up.</textarea>
+    <br>
+    <label for="third">Third:</label>
+    <br>
+    <textarea name="third" id="third"
+      placeholder="You can't see this placeholder a first either, because there is a space between the opening and closing textarea tags"
+      rows="10" cols="40"> </textarea>
+  </form>
+
+  <script src="script.js"></script>
+
+
+
+  <input type="checkbox" name="accept_terms" value="yes" checked>
+
+  <label for="fields-of-study">Select Field of Study:</label>
+  <select id="fields-of-study" name="fields-of-study">
+
+    <option value="math">Math</option>
+    <option value="science">Science</option>
+    <option value="finance">Finance</option>
+    <option value="history">History</option>
+    <option value="languages">Languages</option>
+
+  </select>
+
+  <label for="browser">
+    What browser do you use?
+  </label>
+  <input id="browser" list="browser-list" name="browser" type="text" />
+  <datalist id="browser-list">
+    <option value="Chrome"></option>
+    <option value="Edge"></option>
+    <option value="Firefox"></option>
+  </datalist>
+
+  <form>
+    <label for="update-username">
+      Update Username:
+    </label>
+    <input id="update-username" name="username" type="text" />
+    <input type="submit" />
+    <button type="reset"><strong>Reset</strong></button>
+  </form>
+
+  <form method="post" action="https://formdump.codeinstitute.net/">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="first-name">
+    <button type="submit" value="submit"><strong>Submit</strong></button>
+    <input type="reset" value="Reset form">
+  </form>
+
+
+  <form>
+    <fieldset>
+      <legend>Your details</legend>
+      <label for="name-input">Name:</label>
+      <input type="text" id="name-input" />
+      <br />
+      <label for="email-input">Email:</label>
+      <input type="text" id="email-input" />
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>User Details</legend>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname" />
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname" />
+    </fieldset>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" />
+    </fieldset>
+    <input type="submit" value="Send Request">
+  </form>
+
+
+  <form>
+    <input required="email" type="email" />
+    <input type="submit" />
+  </form>
+
+
+  <form>
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" required="text">
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname" required="text">
+    <label for="email">Email Address:</label>
+    <input type="email" name="email" id="email" required="email">
+  </form>
+
+  <picture>
+    <source srcset="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/jellyfish.png" media="(max-width: 800px)">
+    <source srcset="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/sunflower.png" media="(max-width: 900px)">
+    <img src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/art.png" alt="Assorted images">
+
+  </picture>
+
+  <iframe src="https://www.wikipedia.org" title="Wikipedia" height="600" width="600"></iframe>
+  <iframe src="https://bit.ly/2QVfkiy" height="600" width="600"></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JC5IgRqdzoI" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+
+
+  <audio src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3" controls muted loop>
+    <p>Your browser doesn't support HTML5 audio</p>
+  </audio>
+
+
+  <video src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/coffee.mp4" width="500" height="500" controls="">
+    <p>
+      Your Browser does not support HTML video
+    </p>
+  </video>
+
+  <video src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/pool-video.mp4" width="400" autoplay muted loop
+    controls>
+    <p>Your browser doesn't support HTML5 video</p>
+  </video>
+
+  <video src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/sunset.mp4" controls autoplay muted width="300">
+    <p>Your browser doesn't support HTML5 video.</p>
+    <a href="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/sunset.mp4">Link to the video.</a>
+  </video>
+
+
+  <nav>
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+  </nav>
+
+  <div id="section1">
+    <h2>Section 1 content</h2>
+    <p>The nav element represents a location on a page that links to other pages or to parts within a page. Common
+      examples of navigation sections are menus, tables of contents, and indexes. A nav element is typically found near
+      the top of every web page on a site, because this is where the user expects it to be.</p>
+  </div>
+  <div id="section2">
+    <h2>Section 2 content</h2>
+    <p>A web page can contain several nav elements. For example, one for site navigation and one for navigation of
+      elements on the same page. Use of more than one nav element on the page is usually only necessary in complex
+      ½websites with large amounts of information to structure.</p>
+  </div>
+  <div id="section3">
+    <h2>Section 3 content</h2>
+    <p>Note though that not all groups of links on a page need to be in a nav element - Only sections that consist of
+      major navigation blocks are appropriate for the nav element. For example, a footer may contain a list of links
+      that don't need to be in a nav element.</p>
+  </div>
+
+  <h1>Pythonidae</h1>
+  <section>
+    <h2>Introduction</h2>
+    <p>
+      The Pythonidae, commonly known as pythons, are a family of nonvenomous snakes found in Africa, Asia, and
+      Australia.
+    </p>
+  </section>
+  <h2>Behavior</h2>
+  <p>
+    Most members of this family are ambush predators, in that they typically remain motionless in a camouflaged
+    position, and then strike suddenly at passing prey. Attacks on humans, although known to occur, are extremely rare
+  </p>
+
+  <article>
+    <header>
+      <h1>Babel Fish</h1>
+    </header>
+    <section>
+      <p>
+        The Babel Fish is small, yellow and leech-like, and probably the oddest thing in the Universe. It absorbs all
+        unconscious mental frequencies from this brainwave energy to nourish itself with. It then excretes into the mind
+        of its carrier a telepathic matrix formed by combining the conscious thought frequencies with nerve signals
+        picked up from the speech centres of the brain which has supplied them.
+      </p>
+      <p>
+        The practical upshot of all this is that if you stick a Babel fish in your ear you can instantly understand
+        anything said to you in any form of language.
+      </p>
+      <p>
+        The Babel fish, by effectively removing all barriers to communication between different races and cultures, has
+        caused more and bloodier wars than anything else in the history of creation.
+      </p>
+    </section>
+    <footer>
+      The Hitchhiker's Guide to the Galaxy
+    </footer>
+  </article>
+
+
+  <figure>
+    <img src="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/sunflower-sml.png" alt="Sunflower" />
+    <figcaption>Sunflowers are Sunflowers</figcaption>
+  </figure>
+
+  <table>
+    <caption>
+      Product reviews</caption>
+    <tr>
+      <th>Customer</th>
+      <th>Review</th>
+    </tr>
+    <tr>
+      <td>Simon</td>
+      <td>content of Reverses the polarity of the neutron flow perfectly!</td>
+    </tr>
+    <tr>
+      <td>Jim</td>
+      <td>content of Doesn't work on wood :(</td>
+    </tr>
+  </table>
+
+  <details>
+    <summary>
+      Infinite Improbability Drive</summary>
+    A wonderful new method of crossing interstellar distances in a mere nothingth of a second,
+    without all the tedious mucking about in hyperspace
+  </details>
+
+
+  <article>
+    <h1>House Stark of Winterfell</h1>
+    <p>
+      One of the Great Houses of Westeros and the principal noble house of the north.
+    </p>
+    <details>
+      <summary>
+        Read more
+      </summary>In days of old they ruled as Kings of Winter, but since Aegon's Conquest they have been Wardens of the
+      North and ruled as Lords of Winterfell. Their sigil is a grey direwolf racing across a field of white. Their words
+      are "Winter is Coming", one of only a few house mottoes to be a warning rather than a boast.
+    </details>
+  </article>
+
+  <br>
+  <br>
+
+  <details>
+    <summary>
+      Tech Requirements
+    </summary>
+    <p>A working laptop with internet connection is required.</p>
+    <p>A second screen comes in handy for coding along with the videos.</p>
+  </details>
+
+  <br>
+  <br>
+  <a href="https://twitter.com/CodersInstitute" aria-label="Go to our twitter page (opens in new tab)"
+    target="_blank">Twitter</a>
+
+
+  <br>
+  <br>
+
+
+  <a href="https://codeinstitute.net/" target="_blank"
+    aria-label="Go to the Code Institute website (opens in a new tab)">code institute</a>
+
+
+
+  <br>
+  <br>
+
+  <img src="diagram.png" alt="" aria-labelledby="diagram-description conclusion">
+  <p id="diagram-description">The diagram above shows ...</p>
+  <p id="conclusion">We can draw the following conclusions ...</p>
+
+  <img aria-labelledby="ada-lovelace-description" src="https://go.aws/3eczUoX" alt="ada-lovelace-description">
+  <p id="ada-lovelace-description">
+    Ada Lovelace was the first person to publish an algorithm intended to be executed by the first modern computer, the
+    Analytical Engine created by Charles Babbage. As a result, she is often regarded as the first computer programmer.
+  </p>
+
+
+
+
+  <footer>
+    <span>Find us on:</span>
+    <a href="https://www.facebook.com" target="_blank" rel="noopener"
+      aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener"
+      aria-label="Find us on Twitter (link opens in a new tab) ">Instagram</a>
+    <a href="https://www.twitter.com" target="_blank" rel="noopener"
+      aria-label="Find us on Instagram (link opens in a new tab)">Twitter</a>
+
+    <p>Copyright © Coders Coffeehouse 2020</p>
+  </footer>
+</body>
+
+</html>
